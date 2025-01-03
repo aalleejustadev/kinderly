@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinderly</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/icons/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div class="logo">
+            <a href="index.html" class="logo__link">
+              <img src="assets/images/logo.png" alt="Kinderly" />
+            </a>
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul class="navigation__list flex flex-row gap-3 capitalize">
+                <li class="navigation__item">
+                  <a href="index.html" class="navigation__link">Home</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Paths</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Activities</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Testimonials</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">FAQs</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="actions">
+            <a href="#" class="button button__transparent">Book a Tour</a>
+          </div>
+        </div>
+        <button class="menu-trigger">
+          <img
+            src="assets/icons/menu.png"
+            class="size-100 contain"
+            alt="Menu Button" />
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero relative">
+      <div class="hero-shape">
+        <img
+          class="size-100 contain"
+          src="assets/images/hero-shape-1.png"
+          alt="Hero Shape" />
+      </div>
+      <div class="hero-plane transition move-around-left__20s">
+        <img
+          class="size-100 contain"
+          src="assets/icons/plane__primary.png"
+          alt="Hero Plane" />
+      </div>
+      <div class="hero-sparkle transition move-around-right__10s">
+        <img
+          class="size-100 contain"
+          src="assets/icons/sparkle-glowing.png"
+          alt="Hero Sparkle" />
+      </div>
+      <div class="hero-star transition move-around-left__10s">
+        <img
+          class="size-100 contain"
+          src="assets/icons/star__blue.png"
+          alt="Hero Star" />
+      </div>
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <div class="hero__content flex-1 flex flex-col gap-2">
+            <div class="hero__content__text">
+              <span class="hero__eyebrow text-6xl font-baloo">Encouraging</span>
+              <h1 class="hero__title text-6xl margin-bottom-2 font-w-800">
+                Exploration, One Step at a Time
+              </h1>
+              <p class="hero__description text-xl">
+                We love to inspire children to explore and discover through play
+                and learning
+              </p>
+              <div class="hero__actions flex flex-row gap-2 margin-top-4">
+                <a href="#" class="button button__tertiary button__has-icon">
+                  Explore Our Paths
+                  <span class="button__icon">
+                    <img
+                      class="size-100 contain"
+                      src="assets/icons/arrow-right__white.png"
+                      alt="Arrow Right" />
+                  </span>
+                </a>
+                <div class="button__gradient__wrapper">
+                  <a href="#" class="button button__gradient">
+                    Apply for Admission
+                  </a>
+                </div>
+              </div>
+              <div class="hero__stats flex gap-4 margin-top-6">
+                <div class="hero__stats__item flex items-center gap-2">
+                  <div class="icon">
+                    <img
+                      class="size-100 contain"
+                      src="./assets/icons/book__primary.png"
+                      alt="Book" />
+                  </div>
+                  <div class="text flex flex-col">
+                    <span class="hero__stats__item__title text-xl font-w-800">
+                      500+
+                    </span>
+                    <span class="text-lg">Total Courses</span>
+                  </div>
+                </div>
+                <div class="hero__stats__item flex items-center gap-2">
+                  <div class="icon">
+                    <img
+                      class="size-100 contain"
+                      src="./assets/icons/use__primary.png"
+                      alt="Book" />
+                  </div>
+                  <div class="text flex flex-col">
+                    <span class="hero__stats__item__title text-xl font-w-800">
+                      2500+
+                    </span>
+                    <span class="text-lg">Students Enrolled</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image flex-1 flex justify-end">
+            <img src="assets/images/hero-image.png" alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tape -->
+    <section class="tape transition">
+      <div class="tape__content flex">
+        <div
+          class="tape__items flex flex-none gap-4 padding-left-2 padding-right-2 text-center move-left__30s">
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-white text-2xl font-w-600">
+              Limited seats available
+            </h5>
+          </div>
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-2xl text-white font-w-600">
+              Admission open for 2024-2025
+            </h5>
+          </div>
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-2xl text-white font-w-600">
+              Art competition for all the students
+            </h5>
+          </div>
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-white text-2xl font-w-600">
+              Limited seats available
+            </h5>
+          </div>
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-2xl text-white font-w-600">
+              Admission open for 2024-2025
+            </h5>
+          </div>
+          <div class="tape__item flex items-center gap-4">
+            <div class="tape__item__image">
+              <img
+                class="size-100 contain"
+                src="assets/icons/sparkle-filled__white.png"
+                alt="Sparkle filled" />
+            </div>
+            <h5
+              class="tape__item__title uppercase text-center text-2xl text-white font-w-600">
+              Art competition for all the students
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="welcome relative">
+      <div class="welcome__shape__1">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-6.png"
+          alt="Welcome Shape 6" />
+      </div>
+      <div class="welcome__shape__2">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-7.png"
+          alt="Welcome Shape 7" />
+      </div>
+      <div class="welcome__shape__3">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-8.png"
+          alt="Welcome Shape 8" />
+      </div>
+      <div class="container">
+        <div class="welcome__content margin-bottom-5">
+          <div class="flex gap-4">
+            <div class="welcome__image relative">
+              <img src="assets/images/welcome-image.png" alt="Welcome Image" />
+              <div class="welcome__image__shape"></div>
+            </div>
+            <div class="welcome__text flex-1 relative">
+              <div class="welcome__shape__bolt">
+                <img
+                  class="size-100 contain"
+                  src="assets/icons/bolt.png"
+                  alt="Bolt" />
+              </div>
+              <div class="welcome__text__content padding-3">
+                <div class="section__title text-white">
+                  <span class="section__title__eyebrow">Welcome to</span>
+                  <h2 class="section__title__title">Kinderly School !!</h2>
+                </div>
+                <p class="welcome__description text-xl margin-bottom-2">
+                  Where we believe in nurturing young minds and fostering a love
+                  for learning from an early age. At Kinderly, we are dedicated
+                  to providing a safe, supportive, and stimulating environment
+                  where children can grow.
+                </p>
+                <a href="#" class="button button__text button__has-icon">
+                  Learn more
+                  <span class="button__icon">
+                    <img
+                      class="size-100 contain"
+                      src="assets/icons/arrow-right__black.png"
+                      alt="Arrow Right" />
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="welcome__paths">
+          <h3 class="section__title text-center">
+            <span class="section__title__eyebrow">Our</span>
+            <span class="section__title__title">Learning Paths</span>
+          </h3>
+          <div class="welcome__paths__list flex gap-2 margin-top-3">
+            <div class="welcome__paths__item flex flex-col gap-1 flex-1">
+              <div class="welcome__paths__item__icon">
+                <img
+                  class="size-100 contain"
+                  src="assets/icons/smiley__blue.png"
+                  alt="Toddler" />
+              </div>
+              <h4 class="welcome__paths__item__title text-2xl">Toddler</h4>
+              <div class="welcome__paths__item__age">(1.5 - 3 years)</div>
+              <p class="welcome__paths__item__description">
+                In this program, we focus on nurturing a safe, secure, and
+                stimulating environment where young children can explore their
+                world.
+              </p>
+            </div>
+            <div class="welcome__paths__item flex flex-col gap-1 flex-1">
+              <div class="welcome__paths__item__icon">
+                <img
+                  class="size-100 contain"
+                  src="assets/icons/monitor__blue.png"
+                  alt="Pre-School" />
+              </div>
+              <h4 class="welcome__paths__item__title text-2xl">Pre-School</h4>
+              <div class="welcome__paths__item__age">(2 - 3 years)</div>
+              <p class="welcome__paths__item__description">
+                Our Pre-School program blends play-based learning with
+                structured activities to help children develop foundational
+                skills.
+              </p>
+            </div>
+            <div class="welcome__paths__item flex flex-col gap-1 flex-1">
+              <div class="welcome__paths__item__icon">
+                <img
+                  class="size-100 contain"
+                  src="assets/icons/car__blue.png"
+                  alt="Toddler" />
+              </div>
+              <h4 class="welcome__paths__item__title text-2xl">Kindergarten</h4>
+              <div class="welcome__paths__item__age">(3 - 4 years)</div>
+              <p class="welcome__paths__item__description">
+                In Kindergarten, we provide a balanced approach to learning,
+                combining academic readiness with social and emotional
+                development.
+              </p>
+            </div>
+            <div class="welcome__paths__item flex flex-col gap-1 flex-1">
+              <div class="welcome__paths__item__icon">
+                <img
+                  class="size-100 contain"
+                  src="assets/icons/eco__blue.png"
+                  alt="Toddler" />
+              </div>
+              <h4 class="welcome__paths__item__title text-2xl">
+                Pre-K Program
+              </h4>
+              <div class="welcome__paths__item__age">(4 - 5 years)</div>
+              <p class="welcome__paths__item__description">
+                This program is designed to prepare children for a smooth
+                transition into elementary school. We focus on enhancing skills
+                of the children.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="welcome__paths__button margin-top-3 flex justify-center">
+          <a href="#" class="button button__transparent button__has-icon">
+            View More
+            <span class="button__icon">
+              <img
+                class="size-100 contain"
+                src="assets/icons/arrow-right__black.png"
+                alt="Arrow Right" />
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section class="activities relative">
+      <div class="activities__shape__1">
+        <img
+          class="size-100 contain"
+          src="assets/icons/sparkle-filled__green.png"
+          alt="Activities Shape 1" />
+      </div>
+      <div class="activities__shape__2">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-2.png"
+          alt="Activities Shape 2" />
+      </div>
+      <div class="container">
+        <div class="activities__content">
+          <h3 class="section__title text-center">
+            <span class="section__title__eyebrow">Our</span>
+            <span class="section__title__title">Activities</span>
+          </h3>
+          <div class="activities__titles__wrapper">
+            <div class="activities__titles flex gap-2 margin-top-4 text-center">
+              <div class="activities__title flex-1">
+                <button
+                  class="activities__title__button active"
+                  data-type="all">
+                  All Activities
+                </button>
+              </div>
+              <div class="activities__title flex-1">
+                <button class="activities__title__button" data-type="music">
+                  Music
+                </button>
+              </div>
+              <div class="activities__title flex-1">
+                <button class="activities__title__button" data-type="arts">
+                  Art & Craft
+                </button>
+              </div>
+              <div class="activities__title flex-1">
+                <button class="activities__title__button" data-type="physical">
+                  Physical Activities
+                </button>
+              </div>
+              <div class="activities__title flex-1">
+                <button class="activities__title__button" data-type="party">
+                  Party
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="activities__list margin-top-4 flex wrap flex-cols-3 gap-2">
+            <div class="activities__item" data-type="music">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/music-classes.png"
+                  alt="Music Classes" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Friday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">Music Classes</h4>
+                <p class="activities__item__description">
+                  Our music classes are designed to help children develop their
+                  musical skills and appreciation.
+                </p>
+              </div>
+            </div>
+            <div class="activities__item" data-type="arts">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/spring-party.png"
+                  alt="Spring Party" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Wednesday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">Spring Party</h4>
+                <p class="activities__item__description">
+                  Get ready for a mix of games that promote both fitness and
+                  cooperation.
+                </p>
+              </div>
+            </div>
+            <div class="activities__item" data-type="physical">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/rock-climbing.png"
+                  alt="Rock Climbing" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Thursday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">Rock Climbing</h4>
+                <p class="activities__item__description">
+                  Challenge yourself on our indoor rock climbing walls &
+                  building strength.
+                </p>
+              </div>
+            </div>
+            <div class="activities__item" data-type="party">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/halloween-party.png"
+                  alt="Halloween Party" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Tuesday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">
+                  Halloween Party
+                </h4>
+                <p class="activities__item__description">
+                  Celebrate with spooky costumes, games, and treats in a safe
+                  and fun environment.
+                </p>
+              </div>
+            </div>
+            <div class="activities__item" data-type="physical">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/indoor-games.png"
+                  alt="Indoor Games" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Monday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">Indoor Games</h4>
+                <p class="activities__item__description">
+                  Enjoy interactive indoor games that help the mind and
+                  encourage collaboration.
+                </p>
+              </div>
+            </div>
+            <div class="activities__item" data-type="physical">
+              <div class="activities__item__image">
+                <img
+                  class="size-100 cover"
+                  src="assets/images/outdoor-games.png"
+                  alt="Outdoor Games" />
+              </div>
+              <div class="activities__item__text">
+                <div
+                  class="activities__item__meta flex items-center justify-between">
+                  <span>Saturday</span>
+                  <span>3:00 PM - 4:00 PM</span>
+                </div>
+                <h4 class="activities__item__title text-2xl">Outdoor Games</h4>
+                <p class="activities__item__description">
+                  Engage in fun and active games promote teamwork & physical
+                  fitness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials relative">
+      <div class="testimonials__shape__1">
+        <img
+          class="size-100 contain"
+          src="assets/icons/quote__muted.png"
+          alt="Testimonials Shape 1" />
+      </div>
+      <div class="testimonials__shape__2">
+        <img
+          class="size-100 contain"
+          src="assets/icons/hexagon__white.png"
+          alt="Testimonials Shape 2" />
+      </div>
+      <div class="testimonials__shape__3">
+        <img
+          class="size-100 contain"
+          src="assets/icons/circle__white.png"
+          alt="Testimonials Shape 3" />
+      </div>
+      <div class="container">
+        <div class="testimonials__content">
+          <h3 class="section__title text-center text-white">
+            <span class="section__title__eyebrow">Parents</span>
+            <span class="section__title__title">Testimonials</span>
+          </h3>
+          <div class="testimonials__list margin-top-4">
+            <div class="testimonials__wrapper">
+              <div class="testimonials__slide active">
+                <div class="testimonial__content">
+                  <div class="flex justify-between gap-3 flex-cols-2">
+                    <div class="testimonial__left relative padding-2">
+                      <div class="testimonial__left__shape">
+                        <img
+                          class="size-100 contain"
+                          src="assets/icons/quote__blue.png"
+                          alt="Testimonial quote" />
+                      </div>
+                      <div
+                        class="testimonial__top margin-bottom-2 flex gap-2 items-center">
+                        <div class="testimonial__image">
+                          <img
+                            src="assets/images/sarah.png"
+                            alt="Sarah Johnson"
+                            class="rounded-full cover size-100" />
+                        </div>
+                        <div class="flex-1">
+                          <h4 class="testimonial__author text-2xl font-w-600">
+                            Sarah Johnson
+                          </h4>
+                          <p class="testimonial__role">Pre - School Program</p>
+                        </div>
+                      </div>
+                      <div class="testimonial__bottom">
+                        <p
+                          class="testimonial__text text-xl margin-bottom-2"></p>
+                        <p class="testimonial__text text-xl margin-bottom-2">
+                          As a parent Pre-School program blends play-based
+                          learning with structured activities to help children
+                          develop foundational skills.Our Pre-School program
+                          blends play-based learning with structured activities
+                          helping my childs motor skills.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__right relative">
+                      <div class="testimonial__right__image">
+                        <img
+                          src="assets/images/sarah.png"
+                          alt="Sarah Johnson"
+                          class="size-100 cover" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__slide">
+                <div class="testimonial__content">
+                  <div class="flex justify-between gap-3 flex-cols-2">
+                    <div class="testimonial__left relative padding-2">
+                      <div class="testimonial__left__shape">
+                        <img
+                          class="size-100 contain"
+                          src="assets/icons/quote__blue.png"
+                          alt="Testimonial quote" />
+                      </div>
+                      <div
+                        class="testimonial__top margin-bottom-2 flex gap-2 items-center">
+                        <div class="testimonial__image">
+                          <img
+                            src="assets/images/albert.png"
+                            alt="Albert Flores"
+                            class="rounded-full cover size-100" />
+                        </div>
+                        <div class="flex-1">
+                          <h4 class="testimonial__author text-2xl font-w-600">
+                            Albert Flores
+                          </h4>
+                          <p class="testimonial__role">Pre - School Program</p>
+                        </div>
+                      </div>
+                      <div class="testimonial__bottom">
+                        <p
+                          class="testimonial__text text-xl margin-bottom-2"></p>
+                        <p class="testimonial__text text-xl margin-bottom-2">
+                          Our Pre-School program blends play-based learning with
+                          structured activities to help children develop
+                          foundational skills.Our Pre-School program blends
+                          play-based learning with structured activities to help
+                          children develop foundational skills.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial__right relative">
+                      <div class="testimonial__right__image">
+                        <img
+                          src="assets/images/albert.png"
+                          alt="Albert Flores"
+                          class="size-100 cover" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="testimonials__controls flex justify-center gap-1 margin-top-4">
+              <button class="testimonial__control" data-direction="prev">
+                <img src="assets/icons/arrow-left__black.png" alt="Previous" />
+              </button>
+              <button class="testimonial__control" data-direction="next">
+                <img src="assets/icons/arrow-right__black.png" alt="Next" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faqs relative">
+      <div class="faqs__shape__1">
+        <img
+          class="size-100 contain"
+          src="assets/icons/circle__primary.png"
+          alt="FAQs Shape 1" />
+      </div>
+      <div class="faqs__shape__2">
+        <img
+          class="size-100 contain"
+          src="assets/icons/sparkle-filled__green.png"
+          alt="FAQs Shape 2" />
+      </div>
+      <div class="faqs__shape__3">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-3.png"
+          alt="FAQs Shape 3" />
+      </div>
+      <div class="faqs__shape__4">
+        <img
+          class="size-100 contain"
+          src="assets/icons/shape-1.png"
+          alt="FAQs Shape 4" />
+      </div>
+      <div class="container">
+        <h3 class="section__title text-center">
+          <span class="section__title__eyebrow">Frequently</span>
+          <span class="section__title__title">Asked Questions</span>
+        </h3>
+        <div class="faqs__accordions margin-top-4">
+          <div class="faqs__accordion relative">
+            <div class="faqs__accordion__question">
+              <h5 class="faqs__accordion__question__title text-2xl font-w-500">
+                What communication channels are used to keep parents informed
+                about their child's progress?
+              </h5>
+            </div>
+            <div class="faqs__accordion__answer">
+              <p class="faqs__accordion__answer__text">
+                Kinderly uses daily reports, parent-teacher meetings, and
+                digital platforms to keep parents updated on their child's
+                progress.
+              </p>
+            </div>
+          </div>
+          <div class="faqs__accordion relative">
+            <div class="faqs__accordion__question">
+              <h5 class="faqs__accordion__question__title text-2xl font-w-500">
+                What factors are considered when determining tuition fees?
+              </h5>
+            </div>
+            <div class="faqs__accordion__answer">
+              <p class="faqs__accordion__answer__text">
+                Tuition fees are determined based on program duration,
+                resources, and staffing needs. Adjustments may be made for age
+                groups or additional services.
+              </p>
+            </div>
+          </div>
+          <div class="faqs__accordion relative">
+            <div class="faqs__accordion__question">
+              <h5 class="faqs__accordion__question__title text-2xl font-w-500">
+                How does Kinderly ensure a safe and nurturing environment for
+                children?
+              </h5>
+            </div>
+            <div class="faqs__accordion__answer">
+              <p class="faqs__accordion__answer__text">
+                Kinderly ensures a safe and nurturing environment by maintaining
+                strict safety protocols and fostering a caring, supportive
+                atmosphere for every child. Is this conversation helpful so far?
+              </p>
+            </div>
+          </div>
+          <div class="faqs__accordion relative">
+            <div class="faqs__accordion__question">
+              <h5 class="faqs__accordion__question__title text-2xl font-w-500">
+                What is Kinderly's overall philosophy and approach to early
+                childhood education?
+              </h5>
+            </div>
+            <div class="faqs__accordion__answer">
+              <p class="faqs__accordion__answer__text">
+                Kinderly believes in fostering a love of learning and
+                exploration in young children. Our approach to early childhood
+                education is based on the principles of play-based learning,
+                which emphasizes hands-on experiences and child-led discovery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer relative">
+      <div class="footer__shape__1">
+        <img
+          class="size-100 contain"
+          src="assets/icons/hexagon__white.png"
+          alt="Footer Shape 1" />
+      </div>
+      <div class="footer__shape__2">
+        <img
+          class="size-100 contain"
+          src="assets/icons/circle__white.png"
+          alt="Footer Shape 2" />
+      </div>
+      <div class="container">
+        <div class="footer__cta relative">
+          <div class="footer__cta__shape">
+            <img
+              class="size-100 contain"
+              src="assets/images/shape-5.png"
+              alt="Footer Shape" />
+          </div>
+          <div class="flex items-center">
+            <div class="footer__cta__text flex-1 padding-bottom-5">
+              <h3 class="footer__cta__title section__title">
+                <span class="section__title__eyebrow">Ready to Begin</span>
+                <span class="section__title__title">
+                  Your Child’s New Journey?
+                </span>
+              </h3>
+              <p class="footer__cta__description">
+                Every moment in your child’s early years is crucial. Our
+                programs are designed to inspire curiosity, and build essential
+                skills that will last a lifetime.
+              </p>
+              <div class="flex flex-row gap-2 margin-top-4">
+                <div class="button__gradient__wrapper">
+                  <a href="#" class="button button__gradient">
+                    Apply for Admission
+                  </a>
+                </div>
+                <a href="#" class="button button__transparent button__has-icon">
+                  Explore Our Paths
+                  <span class="button__icon">
+                    <img
+                      class="size-100 contain"
+                      src="assets/icons/arrow-right__black.png"
+                      alt="Arrow Right" />
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="footer__cta__image">
+              <img
+                src="assets/images/cta-image.png"
+                alt="CTA Image"
+                class="size-100 contain" />
+            </div>
+          </div>
+        </div>
+        <div class="footer__content">
+          <div class="footer__columns main__columns flex flex-cols-2">
+            <div class="footer__column__logo flex flex-cols-2">
+              <div>
+                <div class="footer__logo">
+                  <img
+                    src="assets/images/logo-footer__white.png"
+                    alt="Kinderly Logo"
+                    class="size-100 contain" />
+                </div>
+                <p class="footer__logo__description text-white">
+                  Every moment in your child’s early years are crucial for their
+                  growth and development.
+                </p>
+                <div class="footer__logo__socials flex gap-0-5">
+                  <a href="#" class="footer__logo__social" target="_blank">
+                    <img
+                      src="assets/icons/facebook.png"
+                      alt="Facebook"
+                      class="size-100 contain" />
+                  </a>
+                  <a href="#" class="footer__logo__social" target="_blank">
+                    <img
+                      src="assets/icons/x.png"
+                      alt="X"
+                      class="size-100 contain" />
+                  </a>
+                  <a href="#" class="footer__logo__social" target="_blank">
+                    <img
+                      src="assets/icons/linkedin.png"
+                      alt="Linkedin"
+                      class="size-100 contain" />
+                  </a>
+                  <a href="#" class="footer__logo__social" target="_blank">
+                    <img
+                      src="assets/icons/youtube.png"
+                      alt="Youtube"
+                      class="size-100 contain" />
+                  </a>
+                </div>
+              </div>
+              <div class="hide-on-mobile"></div>
+            </div>
+            <div class="footer__column__links flex flex-cols-3">
+              <div class="footer__column__links__column">
+                <h5
+                  class="footer__column__links__title text-white text-xl margin-bottom-1 font-w-500">
+                  Pages
+                </h5>
+                <ul class="footer__column__links__list">
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      About Us
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Programs
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Admissions
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Parent Resources
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__column__links__column">
+                <h5
+                  class="footer__column__links__title text-white text-xl margin-bottom-1 font-w-500">
+                  Useful Links
+                </h5>
+                <ul class="footer__column__links__list">
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link"> Fees </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link"> Blog </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Gallery
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Testimonials
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__column__links__column">
+                <h5
+                  class="footer__column__links__title text-white text-xl margin-bottom-1 font-w-500">
+                  Legal
+                </h5>
+                <ul class="footer__column__links__list">
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Terms & Conditions
+                    </a>
+                  </li>
+                  <li class="footer__column__links__item">
+                    <a href="#" class="footer__column__links__link">
+                      Privacy Policy
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p
+            class="footer__bottom__text text-white text-sm text-center padding-top-2">
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Kinderly. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
